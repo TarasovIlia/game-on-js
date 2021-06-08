@@ -17,6 +17,8 @@ body, html {
         position: relative;
         left: 100px;
         top: 76%;
+        
+        transition: all ease 0.2s;
     }
     .block {
         width: 50px;
@@ -26,18 +28,18 @@ body, html {
         left: 90%;
         top: 61%;
 
-        animation: blockAnimation 2s infinite linear;
+        // animation: blockAnimation 2s infinite linear;
     }
 
-    @keyframes blockAnimation {
-        0% {
-            left: 90%;
-        }
+    // @keyframes blockAnimation {
+    //     0% {
+    //         left: 90%;
+    //     }
 
-        100% {
-            left: 0%;
-        }
-    }
+    //     100% {
+    //         left: 0%;
+    //     }
+    // }
 
     .jump {
         animation: jumpPlayer 1s  linear;

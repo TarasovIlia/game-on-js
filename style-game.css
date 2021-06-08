@@ -16,6 +16,8 @@ body, html {
   position: relative;
   left: 100px;
   top: 76%;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 .main_container .block {
   width: 50px;
@@ -24,24 +26,6 @@ body, html {
   position: relative;
   left: 90%;
   top: 61%;
-  -webkit-animation: blockAnimation 2s infinite linear;
-          animation: blockAnimation 2s infinite linear;
-}
-@-webkit-keyframes blockAnimation {
-  0% {
-    left: 90%;
-  }
-  100% {
-    left: 0%;
-  }
-}
-@keyframes blockAnimation {
-  0% {
-    left: 90%;
-  }
-  100% {
-    left: 0%;
-  }
 }
 .main_container .jump {
   -webkit-animation: jumpPlayer 1s linear;
